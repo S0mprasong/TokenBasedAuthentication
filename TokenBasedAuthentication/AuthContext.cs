@@ -6,6 +6,7 @@ using System.Web;
 
 namespace TokenBasedAuthentication
 {
+    //
     public class AuthContext : IdentityDbContext<IdentityUser>
     {
         public AuthContext()
